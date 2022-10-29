@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8d6ad0450ff440f09e55ef7563e5460, type: 3}
   m_Name: MagicShapes
   m_EditorClassIdentifier: 
-  value: 118
+  value: 3
   destroyEvent:
     m_PersistentCalls:
       m_Calls: []
