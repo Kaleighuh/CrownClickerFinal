@@ -5,6 +5,7 @@
 -a="/Users/kaleahwalker/GITREPOS/CrownClickerFinal/MyCrownClickerFinal/Library/PlayerScriptAssemblies/Unity.Timeline.dll"
 -a="/Users/kaleahwalker/GITREPOS/CrownClickerFinal/MyCrownClickerFinal/Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll"
 -a="/Users/kaleahwalker/GITREPOS/CrownClickerFinal/MyCrownClickerFinal/Library/PlayerScriptAssemblies/UnityEngine.UI.dll"
+-a="/Users/kaleahwalker/GITREPOS/CrownClickerFinal/MyCrownClickerFinal/Library/PlayerScriptAssemblies/Unity.Notifications.iOS.dll"
 -a="/Users/kaleahwalker/GITREPOS/CrownClickerFinal/MyCrownClickerFinal/Library/PlayerScriptAssemblies/Unity.Mathematics.dll"
 -a="/Users/kaleahwalker/GITREPOS/CrownClickerFinal/MyCrownClickerFinal/Library/PlayerScriptAssemblies/Unity.2D.IK.Runtime.dll"
 -a="/Users/kaleahwalker/GITREPOS/CrownClickerFinal/MyCrownClickerFinal/Library/PlayerScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll"
