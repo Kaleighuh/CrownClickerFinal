@@ -1180,3 +1180,151 @@ AssetImportParameters requested are different than current active one (requested
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3815.472525 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(08fedc89408fa4120b7838c26c233a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(08fedc89408fa4120b7838c26c233a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69de2096a1e94c931d4bfe96f8f95338') in 0.147665 seconds 
+  Import took 0.323888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.908155 seconds.
+  path: Assets/Animation/Player_Idle.anim
+  artifactKey: Guid(a4a3cb84307814ee3b576d18130a4b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player_Idle.anim using Guid(a4a3cb84307814ee3b576d18130a4b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95aad0cd7dcbaed1a79a5033938fe5c') in 1.003292 seconds 
+  Import took 1.015308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 238.929551 seconds.
+  path: Assets/Animation/Player.controller
+  artifactKey: Guid(fa000924c006c4dc3a22cb065e0a815f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player.controller using Guid(fa000924c006c4dc3a22cb065e0a815f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61263760f8f0157ef1f20d6a24085293') in 0.180955 seconds 
+  Import took 0.229175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 272.764604 seconds.
+  path: Assets/Animation/Animation_Idle.anim
+  artifactKey: Guid(d9545ca86379241318856737e1927180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Animation_Idle.anim using Guid(d9545ca86379241318856737e1927180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e1dcc78058fbe5d15aa67c525fbd4c') in 0.021305 seconds 
+  Import took 0.084332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.509817 seconds.
+  path: Assets/Animation/Animation_Walk_Up.anim
+  artifactKey: Guid(e2d927f6f15bb41aca2355bde444b839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Animation_Walk_Up.anim using Guid(e2d927f6f15bb41aca2355bde444b839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10028c2166957f23e7577e6b617e5130') in 0.008918 seconds 
+  Import took 0.018824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.987628 seconds.
+  path: Assets/tiny-RPG-forest-files/PNG/sprites/hero/idle/hero-idle-back/hero-idle-back.png
+  artifactKey: Guid(b7de4cb1003d8443f929f81f3f3e1b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tiny-RPG-forest-files/PNG/sprites/hero/idle/hero-idle-back/hero-idle-back.png using Guid(b7de4cb1003d8443f929f81f3f3e1b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e363a19bda13542b5a18df8ee961e85') in 0.620291 seconds 
+  Import took 0.626354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.590029 seconds.
+  path: Assets/Animation/Animation_IP.anim
+  artifactKey: Guid(6d6fb79d7a72340ab91668c4ec2ca2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Animation_IP.anim using Guid(6d6fb79d7a72340ab91668c4ec2ca2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3efaffbd402b7b5734f10ab17ec85f9') in 0.020893 seconds 
+  Import took 0.050164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 484.162089 seconds.
+  path: Assets/tiny-RPG-forest-files/PNG/sprites/hero/idle/hero-idle-side/hero-idle-side.png
+  artifactKey: Guid(aed6f9d5b28ef4e7e8932c0171565c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tiny-RPG-forest-files/PNG/sprites/hero/idle/hero-idle-side/hero-idle-side.png using Guid(aed6f9d5b28ef4e7e8932c0171565c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daaf48c140d139b4f1c08443abcdd2c2') in 0.094496 seconds 
+  Import took 0.137439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.333532 seconds.
+  path: Assets/Animation/hero-idle-side.controller
+  artifactKey: Guid(9cfad2a2b266f419f8b2b3d03fe1ee33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/hero-idle-side.controller using Guid(9cfad2a2b266f419f8b2b3d03fe1ee33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e890a96c97bcda8504eabcbd4ea5a5a') in 0.017080 seconds 
+  Import took 0.026352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.300676 seconds.
+  path: Assets/Animation/Character_Idle.anim
+  artifactKey: Guid(5abd88021de58477b803378bb88bbbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Character_Idle.anim using Guid(5abd88021de58477b803378bb88bbbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35da667dd0280b656520d0a4ac13b59') in 0.013750 seconds 
+  Import took 0.020398 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007429 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-11-08 18:09:54.255 Unity[14183:848248] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001dffbf0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.674 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1681ms)
+		BeginReloadAssembly (301ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (192ms)
+		EndReloadAssembly (1293ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (434ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (426ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 221.4 MB.
+System memory in use after: 221.7 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2870.
+Total: 4.160190 ms (FindLiveObjects: 0.322189 ms CreateObjectMapping: 0.125643 ms MarkObjects: 3.649842 ms  DeleteObjects: 0.060042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18.831446 seconds.
+  path: Assets/Animation/hero-idle-back.controller
+  artifactKey: Guid(9ae4ba3ba99fc44f6af98374e7f6b8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/hero-idle-back.controller using Guid(9ae4ba3ba99fc44f6af98374e7f6b8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33d91ebfbdab4d59bdd8ee653ac5d30') in 0.015931 seconds 
+  Import took 0.020368 seconds .
+
