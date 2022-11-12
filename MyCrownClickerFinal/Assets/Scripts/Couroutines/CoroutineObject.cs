@@ -15,9 +15,9 @@ public class CoroutineObject : MonoBehaviour
     public int sparklesValue;
     //public float seconds = 1.0f;
     public WaitForSeconds waitTime = new WaitForSeconds(1);
+    public SpriteRenderer spriteRenderer;
+    public Sprite[] spriteArray;
 
-	public UnityEvent theshold1, theshold2, theshold3;
-    
     private IEnumerator Start()
     {
         while (canRun)
@@ -30,6 +30,7 @@ public class CoroutineObject : MonoBehaviour
                 Ruby += rubyValue;
                 everySecondR.Invoke();
                 Debug.Log("Ruby equals " + Ruby);
+                spriteRenderer.sprite = spriteArray[0];
             }
 
             if (Ruby > 20)
@@ -37,13 +38,14 @@ public class CoroutineObject : MonoBehaviour
                 Sparkles += sparklesValue;
                 everySecondS.Invoke();
                 Debug.Log("Sparkles " + Sparkles);
+                spriteRenderer.sprite = spriteArray[1];;
+            }
+            if (Gold >= 20 && Ruby >= 30 && Sparkles >= 10)
+            {
+                spriteRenderer.sprite = spriteArray[2];;
             }
             yield return waitTime;
         }
     }
-
-	public void OnClickEnter()
-	{
-			
-	}
+    
 }
