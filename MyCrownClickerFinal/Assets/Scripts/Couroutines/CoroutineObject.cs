@@ -32,7 +32,6 @@ public class CoroutineObject : MonoBehaviour
                 Debug.Log("Ruby equals " + Ruby);
                 spriteRenderer.sprite = spriteArray[0];
             }
-
             if (Ruby > 20)
             {
                 Sparkles += sparklesValue;
@@ -40,7 +39,7 @@ public class CoroutineObject : MonoBehaviour
                 Debug.Log("Sparkles " + Sparkles);
                 spriteRenderer.sprite = spriteArray[1];;
             }
-            if (Gold >= 20 && Ruby >= 30 && Sparkles >= 10)
+            if (Gold > 20 && Ruby > 30 && Sparkles > 10)
             {
                 spriteRenderer.sprite = spriteArray[2];;
             }
