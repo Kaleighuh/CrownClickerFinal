@@ -2107,6 +2107,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  everySecondEnd:
+    m_PersistentCalls:
+      m_Calls:
       - m_Target: {fileID: 1658661103}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: StartGame
