@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class CoroutineObject : MonoBehaviour
 {
-    public UnityEvent everySecondG, everySecondR, everySecondS;
+    public UnityEvent everySecondG, everySecondR, everySecondS, everySecondEnd;
     public bool canRun;
     public int Gold;
     public int goldValue;
@@ -23,26 +23,30 @@ public class CoroutineObject : MonoBehaviour
         while (canRun)
         {
             Gold += goldValue;
-            Debug.Log ("Gold equals " + Gold);
+            /*Debug.Log ("Gold equals " + Gold);*/
             everySecondG.Invoke();
             if (Gold > 10)
             {
                 Ruby += rubyValue;
                 everySecondR.Invoke();
-                Debug.Log("Ruby equals " + Ruby);
+                /*Debug.Log("Ruby equals " + Ruby);*/
                 spriteRenderer.sprite = spriteArray[0];
             }
             if (Ruby > 20)
             {
                 Sparkles += sparklesValue;
                 everySecondS.Invoke();
-                Debug.Log("Sparkles " + Sparkles);
-                spriteRenderer.sprite = spriteArray[1];;
+                /*Debug.Log("Sparkles " + Sparkles);*/
+                spriteRenderer.sprite = spriteArray[1];
             }
-            if (Gold > 20 && Ruby > 30 && Sparkles > 10)
+            if (Sparkles > 10)
             {
-                spriteRenderer.sprite = spriteArray[2];;
+                spriteRenderer.sprite = spriteArray[2];
             }
+			if(Gold > 50 && Ruby > 40 && Sparkles > 30)
+			{
+				everySecondEnd.Invoke();
+			}
             yield return waitTime;
         }
     }
