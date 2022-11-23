@@ -160,8 +160,6 @@ struct AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA;
 struct AudioClip_t16D2E573E7CC1C5118D8EE0F0692D46866A1C0EE;
 // UnityEngine.Experimental.Audio.AudioSampleProvider
 struct AudioSampleProvider_tD8B613D55D09D6CE86B851A5D8F33560FFCC705B;
-// UnityEngine.AudioSource
-struct AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B;
 // System.Delegate
 struct Delegate_t;
 // System.DelegateData
@@ -408,40 +406,6 @@ public:
 };
 
 
-// System.Double
-struct Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181 
-{
-public:
-	// System.Double System.Double::m_value
-	double ___m_value_0;
-
-public:
-	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181, ___m_value_0)); }
-	inline double get_m_value_0() const { return ___m_value_0; }
-	inline double* get_address_of_m_value_0() { return &___m_value_0; }
-	inline void set_m_value_0(double value)
-	{
-		___m_value_0 = value;
-	}
-};
-
-struct Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_StaticFields
-{
-public:
-	// System.Double System.Double::NegativeZero
-	double ___NegativeZero_7;
-
-public:
-	inline static int32_t get_offset_of_NegativeZero_7() { return static_cast<int32_t>(offsetof(Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_StaticFields, ___NegativeZero_7)); }
-	inline double get_NegativeZero_7() const { return ___NegativeZero_7; }
-	inline double* get_address_of_NegativeZero_7() { return &___NegativeZero_7; }
-	inline void set_NegativeZero_7(double value)
-	{
-		___NegativeZero_7 = value;
-	}
-};
-
-
 // System.Int32
 struct Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046 
 {
@@ -524,24 +488,6 @@ public:
 	inline uint32_t get_m_value_0() const { return ___m_value_0; }
 	inline uint32_t* get_address_of_m_value_0() { return &___m_value_0; }
 	inline void set_m_value_0(uint32_t value)
-	{
-		___m_value_0 = value;
-	}
-};
-
-
-// System.UInt64
-struct UInt64_tEC57511B3E3CA2DBA1BEBD434C6983E31C943281 
-{
-public:
-	// System.UInt64 System.UInt64::m_value
-	uint64_t ___m_value_0;
-
-public:
-	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(UInt64_tEC57511B3E3CA2DBA1BEBD434C6983E31C943281, ___m_value_0)); }
-	inline uint64_t get_m_value_0() const { return ___m_value_0; }
-	inline uint64_t* get_address_of_m_value_0() { return &___m_value_0; }
-	inline void set_m_value_0(uint64_t value)
 	{
 		___m_value_0 = value;
 	}
@@ -1168,8 +1114,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleFramesHandler_Invoke_mCB6172CE3EF2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioConfigurationChangeHandler_Invoke_mDC001A19067B6A02B0DE21A4D66FC8D82529F911 (AudioConfigurationChangeHandler_t1A997C51DF7B553A94DAD358F8D968308994774A * __this, bool ___deviceWasChanged0, const RuntimeMethod* method);
 // System.Void System.Action::Invoke()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_Invoke_m3FFA5BE3D64F0FF8E1E1CB6F953913FADB5EB89E (Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6 * __this, const RuntimeMethod* method);
-// System.Void UnityEngine.AudioSource::PlayHelper(UnityEngine.AudioSource,System.UInt64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_PlayHelper_mAE7BC6AD4F09442D5EB0FF7711ECAB7580195814 (AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B * ___source0, uint64_t ___delay1, const RuntimeMethod* method);
 // System.Boolean UnityEngine.AudioSettings/Mobile::get_muteState()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Mobile_get_muteState_m692B429F6C1592C72DCCDCD2A00BF126BC51F6EF_inline (const RuntimeMethod* method);
 // System.Void UnityEngine.AudioSettings/Mobile::set_muteState(System.Boolean)
@@ -1611,41 +1555,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioSettings_StopAudioOutput_m5012E0AC9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void UnityEngine.AudioSource::PlayHelper(UnityEngine.AudioSource,System.UInt64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_PlayHelper_mAE7BC6AD4F09442D5EB0FF7711ECAB7580195814 (AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B * ___source0, uint64_t ___delay1, const RuntimeMethod* method)
-{
-	typedef void (*AudioSource_PlayHelper_mAE7BC6AD4F09442D5EB0FF7711ECAB7580195814_ftn) (AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B *, uint64_t);
-	static AudioSource_PlayHelper_mAE7BC6AD4F09442D5EB0FF7711ECAB7580195814_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (AudioSource_PlayHelper_mAE7BC6AD4F09442D5EB0FF7711ECAB7580195814_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::PlayHelper(UnityEngine.AudioSource,System.UInt64)");
-	_il2cpp_icall_func(___source0, ___delay1);
-}
-// System.Void UnityEngine.AudioSource::Play(System.Double)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Play_m1F0F190F0535691D80CB663A3EF67D14BAE78566 (AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B * __this, double ___delay0, const RuntimeMethod* method)
-{
-	typedef void (*AudioSource_Play_m1F0F190F0535691D80CB663A3EF67D14BAE78566_ftn) (AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B *, double);
-	static AudioSource_Play_m1F0F190F0535691D80CB663A3EF67D14BAE78566_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (AudioSource_Play_m1F0F190F0535691D80CB663A3EF67D14BAE78566_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::Play(System.Double)");
-	_il2cpp_icall_func(__this, ___delay0);
-}
-// System.Void UnityEngine.AudioSource::Play()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Play_mED16664B8F8F3E4D68785C8C00FC96C4DF053AE1 (AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B * __this, const RuntimeMethod* method)
-{
-	{
-		AudioSource_PlayHelper_mAE7BC6AD4F09442D5EB0FF7711ECAB7580195814(__this, ((int64_t)((int64_t)0)), /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.AudioSource::Play(System.UInt64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Play_m76D05EE3D8A6A6B3EC4C18D3BF7DE3732826B515 (AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B * __this, uint64_t ___delay0, const RuntimeMethod* method)
-{
-	{
-		uint64_t L_0 = ___delay0;
-		AudioSource_PlayHelper_mAE7BC6AD4F09442D5EB0FF7711ECAB7580195814(__this, L_0, /*hidden argument*/NULL);
-		return;
-	}
-}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

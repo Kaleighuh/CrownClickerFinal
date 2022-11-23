@@ -70,6 +70,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Animator_ResetTriggerString();
 		Register_UnityEngine_Animator_ResetTriggerString();
 
+		//System.Void UnityEngine.Animator::SetFloatString(System.String,System.Single)
+		void Register_UnityEngine_Animator_SetFloatString();
+		Register_UnityEngine_Animator_SetFloatString();
+
 		//System.Void UnityEngine.Animator::SetTriggerString(System.String)
 		void Register_UnityEngine_Animator_SetTriggerString();
 		Register_UnityEngine_Animator_SetTriggerString();
@@ -115,18 +119,6 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_AudioSettings_StopAudioOutput();
 
 	//End Registrations for type : UnityEngine.AudioSettings
-
-	//Start Registrations for type : UnityEngine.AudioSource
-
-		//System.Void UnityEngine.AudioSource::Play(System.Double)
-		void Register_UnityEngine_AudioSource_Play();
-		Register_UnityEngine_AudioSource_Play();
-
-		//System.Void UnityEngine.AudioSource::PlayHelper(UnityEngine.AudioSource,System.UInt64)
-		void Register_UnityEngine_AudioSource_PlayHelper();
-		Register_UnityEngine_AudioSource_PlayHelper();
-
-	//End Registrations for type : UnityEngine.AudioSource
 
 	//Start Registrations for type : UnityEngine.Behaviour
 
@@ -1728,6 +1720,18 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.ResourcesAPIInternal
 
+	//Start Registrations for type : UnityEngine.Rigidbody2D
+
+		//System.Void UnityEngine.Rigidbody2D::MovePosition_Injected(UnityEngine.Vector2&)
+		void Register_UnityEngine_Rigidbody2D_MovePosition_Injected();
+		Register_UnityEngine_Rigidbody2D_MovePosition_Injected();
+
+		//System.Void UnityEngine.Rigidbody2D::get_position_Injected(UnityEngine.Vector2&)
+		void Register_UnityEngine_Rigidbody2D_get_position_Injected();
+		Register_UnityEngine_Rigidbody2D_get_position_Injected();
+
+	//End Registrations for type : UnityEngine.Rigidbody2D
+
 	//Start Registrations for type : UnityEngine.SceneManagement.SceneManager
 
 		//System.Int32 UnityEngine.SceneManagement.SceneManager::get_sceneCount()
@@ -1967,6 +1971,14 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Sprite_get_vertices();
 
 	//End Registrations for type : UnityEngine.Sprite
+
+	//Start Registrations for type : UnityEngine.SpriteRenderer
+
+		//System.Void UnityEngine.SpriteRenderer::set_sprite(UnityEngine.Sprite)
+		void Register_UnityEngine_SpriteRenderer_set_sprite();
+		Register_UnityEngine_SpriteRenderer_set_sprite();
+
+	//End Registrations for type : UnityEngine.SpriteRenderer
 
 	//Start Registrations for type : UnityEngine.SystemInfo
 

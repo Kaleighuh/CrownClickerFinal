@@ -169,7 +169,7 @@ class TilemapRenderer;
 class TrailRenderer; 
 class VFXRenderer; 
 class Rigidbody; template <> void RegisterUnityClass<Rigidbody>(const char*);
-class Rigidbody2D; 
+class Rigidbody2D; template <> void RegisterUnityClass<Rigidbody2D>(const char*);
 namespace TextRenderingPrivate { class TextMesh; } template <> void RegisterUnityClass<TextRenderingPrivate::TextMesh>(const char*);
 class Transform; template <> void RegisterUnityClass<Transform>(const char*);
 namespace UI { class RectTransform; } template <> void RegisterUnityClass<UI::RectTransform>(const char*);
@@ -268,7 +268,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 73 non stripped classes
+	//Total: 74 non stripped classes
 	//0. Animator
 	RegisterUnityClass<Animator>("Animation");
 	//1. AnimatorController
@@ -405,15 +405,17 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<Collider2D>("Physics2D");
 	//67. Physics2DSettings
 	RegisterUnityClass<Physics2DSettings>("Physics2D");
-	//68. TextRendering::Font
+	//68. Rigidbody2D
+	RegisterUnityClass<Rigidbody2D>("Physics2D");
+	//69. TextRendering::Font
 	RegisterUnityClass<TextRendering::Font>("TextRendering");
-	//69. TextRenderingPrivate::TextMesh
+	//70. TextRenderingPrivate::TextMesh
 	RegisterUnityClass<TextRenderingPrivate::TextMesh>("TextRendering");
-	//70. UI::Canvas
+	//71. UI::Canvas
 	RegisterUnityClass<UI::Canvas>("UI");
-	//71. UI::CanvasGroup
+	//72. UI::CanvasGroup
 	RegisterUnityClass<UI::CanvasGroup>("UI");
-	//72. UI::CanvasRenderer
+	//73. UI::CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
 
 }

@@ -619,6 +619,8 @@ struct SpaceAttribute_t041FADA1DC4DD39BBDEBC47F445290D7EE4BBCC8;
 struct Sprite_t5B10B1178EC2E6F53D33FFD77557F31C08A51ED9;
 // UnityEngine.U2D.SpriteAtlas
 struct SpriteAtlas_t72834B063A58822D683F5557DF8D164740C8A5F9;
+// UnityEngine.SpriteRenderer
+struct SpriteRenderer_t3F35AD5498243C170B46F5FFDB582AAEF78615EF;
 // System.Diagnostics.StackTrace
 struct StackTrace_t43C03122C6B2AAF0DCCF684B2D5FA6E673F02888;
 // System.Diagnostics.Stopwatch
@@ -21698,6 +21700,15 @@ IL2CPP_EXTERN_C void SpriteBone_t7BF68B13FD8E65DC10C7C48D4B6C1D14030AFF2D_marsha
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void UnityEngine.SpriteRenderer::set_sprite(UnityEngine.Sprite)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteRenderer_set_sprite_mBCFFBF3F10C068FD1174C4506DF73E204303FC1A (SpriteRenderer_t3F35AD5498243C170B46F5FFDB582AAEF78615EF * __this, Sprite_t5B10B1178EC2E6F53D33FFD77557F31C08A51ED9 * ___value0, const RuntimeMethod* method)
+{
+	typedef void (*SpriteRenderer_set_sprite_mBCFFBF3F10C068FD1174C4506DF73E204303FC1A_ftn) (SpriteRenderer_t3F35AD5498243C170B46F5FFDB582AAEF78615EF *, Sprite_t5B10B1178EC2E6F53D33FFD77557F31C08A51ED9 *);
+	static SpriteRenderer_set_sprite_mBCFFBF3F10C068FD1174C4506DF73E204303FC1A_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (SpriteRenderer_set_sprite_mBCFFBF3F10C068FD1174C4506DF73E204303FC1A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SpriteRenderer::set_sprite(UnityEngine.Sprite)");
+	_il2cpp_icall_func(__this, ___value0);
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
