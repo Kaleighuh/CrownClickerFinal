@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class playerMovement : MonoBehaviour
 {
+	public UnityEvent moveNextScene;
     public float movementSpeed = 5f;
     public Rigidbody2D rb;
     Vector2 movement;

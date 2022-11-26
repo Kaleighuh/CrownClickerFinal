@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MazeScene.unity
     guid: 6d5a023e603ca4aa1aa1e76ed202277a
+  - enabled: 1
+    path: Assets/Scenes/PrincessScene.unity
+    guid: ddb6d0b9d441040fda1e7b1e005f9e00
   m_configObjects: {}
