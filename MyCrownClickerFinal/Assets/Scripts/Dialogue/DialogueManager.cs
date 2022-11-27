@@ -32,17 +32,17 @@ public class DialogueManager : MonoBehaviour
 		actorName.text = actorToDisplay.name;
 		actorImage.sprite = actorToDisplay.sprite;
 	}
-
-	public void NextMessage();
+	public void NextMessage()
 	{
 		activeMessage++;
-		if (activeMessage < currentMessages.Length)
+		if(activeMessage < currentMessages.Length)
 		{
 			DisplayDialogue();
 		}
 		else
 		{
-			Debug.Log("This Conversation is over!");
+			Debug.Log("This conversation is over!");
+			//isActive = false; it's giving issues
 		}
 	}
 }
