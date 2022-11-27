@@ -21,6 +21,29 @@ public class DialogueManager : MonoBehaviour
 		activeMessage = 0;
 
 		Debug.Log("Started Conversation" + messages.Length);
+		DisplayDialogue();
+	}
+	public void DisplayDialogue()
+	{
+		Message messageToDisplay = currentMessages[activeMessage];
+		messageText.text = messageToDisplay.message;
+		
+		Actor actorToDisplay = currentActors[messageToDisplay.actorID];
+		actorName.text = actorToDisplay.name;
+		actorImage.sprite = actorToDisplay.sprite;
+	}
+
+	public void NextMessage();
+	{
+		activeMessage++;
+		if (activeMessage < currentMessages.Length)
+		{
+			DisplayDialogue();
+		}
+		else
+		{
+			Debug.Log("This Conversation is over!");
+		}
 	}
 }
 
