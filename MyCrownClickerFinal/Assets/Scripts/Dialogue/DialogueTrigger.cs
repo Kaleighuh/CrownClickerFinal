@@ -17,7 +17,7 @@ public class DialogueTrigger : MonoBehaviour
 
    public void StartDialogue()
    {
-      FindObjectOfType<DialogueManager>().OpenDialogue(messages, actors);
+      FindObjectOfType<DialogueManager>().OpenDialogue(messages, actors); // change to scriptable objects
    }
 }
 [System.Serializable]
