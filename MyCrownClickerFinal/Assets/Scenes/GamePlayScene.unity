@@ -3272,7 +3272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actorImage: {fileID: 0}
-  actorName: {fileID: 441996961}
+  actorName: {fileID: 1756613280}
   messageText: {fileID: 1756613280}
   backgroundBox: {fileID: 649083586}
 --- !u!1 &1798896459
