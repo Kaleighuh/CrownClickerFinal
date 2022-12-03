@@ -10,8 +10,11 @@ public class playerMovement : MonoBehaviour
     public Rigidbody2D rb;
     Vector2 movement;
     public Animator animator;
+    private float horizontalMove = .50f;
+    public Joystick joystick;
     void Update()
     {
+        horizontalMove = joystick.Horizontal * movementSpeed;
         movement.x = Input.GetAxisRaw("Horizontal");  //input
         movement.y = Input.GetAxisRaw("Vertical");
 
