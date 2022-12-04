@@ -26,6 +26,6 @@ public class DialogueController : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-       // Oninteract();
+       OnInteract();
     }
 }
