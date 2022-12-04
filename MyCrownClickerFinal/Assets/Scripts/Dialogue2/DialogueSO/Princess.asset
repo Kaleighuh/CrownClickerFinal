@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ca07e522ffc74cc1a7d264e747981c6, type: 3}
+  m_Name: Princess
+  m_EditorClassIdentifier: 
+  DialogueText:
+  - Hello Sir!
+  - My name is Rose. It is a pleasure to meet you!
+  - Oh my! What a beautiful crown!
+  - Thank you very much sir. Quite literally a night in shining amour.
+  isLoopable: 0
+  isOrdered: 1

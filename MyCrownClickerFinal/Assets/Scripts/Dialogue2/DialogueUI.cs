@@ -9,6 +9,7 @@ public class DialogueUI : MonoBehaviour
     public event System.Action TypingTextEnded;
     public Text DialogueBoxText;
     public Button NextButton;
+	public Button ExitButton;
     public float TypeTextDelay = 0.05f;
 
     public void ShowText(string text, bool shouldType)

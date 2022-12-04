@@ -3,14 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
-/*{
-   public Dialogue dialogue;
 
-   public void TriggerDialogue()
-   {
-      FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
-   }
-}*/ //Brackies video that I am still trying to trouble shoot
 {
    public Message[] messages;
    public Actor[] actors;

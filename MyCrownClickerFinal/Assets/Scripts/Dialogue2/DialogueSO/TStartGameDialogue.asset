@@ -13,8 +13,16 @@ MonoBehaviour:
   m_Name: TStartGameDialogue
   m_EditorClassIdentifier: 
   DialogueText:
-  - Hello Weary traveler!
-  - I see that you are here to see the princess!
-  - Good for you bro
+  - My name is Tellah. Your friendly neighborhood elf.
+  - Are you here to see the princess? Well that's wonderful! We have many eligible
+    suitors... the line almost wraps around the castle. I hope you have something
+    to stand out!
+  - What is that you have there? A crown! Why that's mightly forward of you. I must
+    admit through, it is looking a little shabby...
+  - Tell you what. I have some resources lying around that you can use to spruce
+    that crown up a little bit.
+  - All you have to do it click on the resources and the count will go up. Don't
+    worry though, these magical items will grow on their own as well.
+  - Good luck soilder! Remember, the princess is waiting!
   isLoopable: 0
   isOrdered: 1
