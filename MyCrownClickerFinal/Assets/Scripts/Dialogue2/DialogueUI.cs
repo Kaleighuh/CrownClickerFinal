@@ -31,6 +31,7 @@ public class DialogueUI : MonoBehaviour
         string currentText;
         for (int i = 0; i < fullText.Length + 1; i++)
         {
+			//Time.timeScale = 0;
             currentText = fullText.Substring(0, i);
             DialogueBoxText.text = currentText;
             yield return new WaitForSeconds(TypeTextDelay);
@@ -38,5 +39,6 @@ public class DialogueUI : MonoBehaviour
 
         TypingTextEnded.Invoke();
         yield return null;
+		//Time.timeScale = 1;
     }
 }
