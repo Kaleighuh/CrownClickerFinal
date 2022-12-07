@@ -14,6 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DialogueText:
   - The princess is sure to give you to light of day with a beauty like that.
-  - Tell ya what, I'll escort you to the princess myself. Follow Me!
   isLoopable: 1
   isOrdered: 1
