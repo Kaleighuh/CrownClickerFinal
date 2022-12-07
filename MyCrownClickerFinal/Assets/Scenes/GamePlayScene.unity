@@ -1944,7 +1944,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DialogueUI: {fileID: 1756613282}
   CurrentDialogueObject: {fileID: 11400000, guid: 1b371a399e6b940c594cb199a0802215, type: 2}
-  animator: {fileID: 0}
+  animator: {fileID: 854648466}
 --- !u!61 &615270529
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2445,9 +2445,9 @@ MonoBehaviour:
   everySecondEnd:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1658661103}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: StartGame
+      - m_Target: {fileID: 270485118}
+        m_TargetAssemblyTypeName: DialogueController, Assembly-CSharp
+        m_MethodName: OnEnable
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2455,6 +2455,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 854648466}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Open
           m_BoolArgument: 0
         m_CallState: 2
   canRun: 1
@@ -2729,6 +2741,7 @@ GameObject:
   - component: {fileID: 854648468}
   - component: {fileID: 854648467}
   - component: {fileID: 854648466}
+  - component: {fileID: 854648469}
   m_Layer: 5
   m_Name: DialogueBox
   m_TagString: Untagged
@@ -2757,7 +2770,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 4, y: -860}
+  m_AnchoredPosition: {x: 4, y: -263}
   m_SizeDelta: {x: -1234, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &854648466
@@ -2770,7 +2783,7 @@ Animator:
   m_GameObject: {fileID: 854648464}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 138adcac6bb884b188060dc1a0e0a203, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1ac7e54e476ed452db34c299c6f07bd9, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2817,6 +2830,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 854648464}
   m_CullTransparentMesh: 1
+--- !u!114 &854648469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854648464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4db91106261943e699a9fb838d1a290, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerEnterEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &884637155
 GameObject:
   m_ObjectHideFlags: 0
@@ -4193,7 +4221,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 4, y: -258}
+  m_AnchoredPosition: {x: 4, y: -266}
   m_SizeDelta: {x: -1234, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1769677971

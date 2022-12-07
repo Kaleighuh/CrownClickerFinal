@@ -9,7 +9,7 @@ public class DialogueController : MonoBehaviour, IPointerClickHandler
     public DialogueSOs CurrentDialogueObject;
 	public Animator animator;
 
-    private void OnEnable()
+    public void OnEnable()
     {
         DialogueUI.NextButton.onClick.AddListener(OnInteract);
 		animator.SetBool("IsClosed", false);
