@@ -25,25 +25,25 @@ public class CoroutineObject : MonoBehaviour
             Gold += goldValue;
             /*Debug.Log ("Gold equals " + Gold);*/
             everySecondG.Invoke();
-            if (Gold > 10)
+            if (Gold > 120)
             {
                 Ruby += rubyValue;
                 everySecondR.Invoke();
                 /*Debug.Log("Ruby equals " + Ruby);*/
                 spriteRenderer.sprite = spriteArray[0];
             }
-            if (Ruby > 20)
+            if (Ruby > 240)
             {
                 Sparkles += sparklesValue;
                 everySecondS.Invoke();
                 /*Debug.Log("Sparkles " + Sparkles);*/
                 spriteRenderer.sprite = spriteArray[1];
             }
-            if (Sparkles > 10)
+            if (Sparkles > 300)
             {
                 spriteRenderer.sprite = spriteArray[2];
             }
-			if(Gold > 50 && Ruby > 40 && Sparkles > 30)
+			if(Gold > 120 && Ruby > 140 && Sparkles > 302)
 			{
 				everySecondEnd.Invoke();
 			}

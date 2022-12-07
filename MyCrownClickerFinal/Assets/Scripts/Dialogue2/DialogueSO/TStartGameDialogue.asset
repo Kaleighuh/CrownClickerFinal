@@ -24,5 +24,5 @@ MonoBehaviour:
   - All you have to do it click on the resources and the count will go up. Don't
     worry though, these magical items will grow on their own as well.
   - Good luck soilder! Remember, the princess is waiting!
-  isLoopable: 0
+  isLoopable: 1
   isOrdered: 1

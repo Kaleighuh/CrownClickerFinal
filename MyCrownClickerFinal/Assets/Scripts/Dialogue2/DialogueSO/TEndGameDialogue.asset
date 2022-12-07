@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TEndGameDialogue
   m_EditorClassIdentifier: 
   DialogueText:
-  - Your crown is looking pretty snazzy!
-  - Here, I will escort you to the princess personally. Follow Me!
-  isLoopable: 0
-  isOrdered: 0
+  - The princess is sure to give you to light of day with a beauty like that.
+  - Tell ya what, I'll escort you to the princess myself. Follow Me!
+  isLoopable: 1
+  isOrdered: 1

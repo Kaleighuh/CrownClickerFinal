@@ -13,9 +13,12 @@ MonoBehaviour:
   m_Name: Princess
   m_EditorClassIdentifier: 
   DialogueText:
-  - Hello Sir!
-  - My name is Rose. It is a pleasure to meet you!
-  - Oh my! What a beautiful crown!
-  - Thank you very much sir. Quite literally a night in shining amour.
+  - Oh my, what do you have there?
+  - Wow... what a beautiful crown! Oh? It's for me? Why thank you so much sir!
+  - How rude of me. I forgot to introduce myself. My name is Rosie. It has been a
+    honor to make your acquaintance!
+  - It was lovely running in to you! Again, thank you very much for the beautiful
+    crown. I really must get going. However, I hope that we see each other soon.
+    I have a feeling that we will... ;) Until next time soilder!
   isLoopable: 0
   isOrdered: 1
