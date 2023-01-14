@@ -18,13 +18,10 @@ ScriptsOnlyBuild:
     - UnityEngine.U2D.Animation.SpriteSkin
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Sprite.Editor.dll:
     - UnityEditor.U2D.Sprites.SpriteEditorWindow
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -34,8 +31,6 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
-    Unity.Mobile.AndroidLogcat.Editor.dll:
-    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -93,23 +88,23 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1520}
+      Script: {instanceID: 1518}
     - Class: 114
-      Script: {instanceID: 2494}
+      Script: {instanceID: 2484}
     - Class: 114
-      Script: {instanceID: 2924}
+      Script: {instanceID: 2912}
     - Class: 114
-      Script: {instanceID: 3188}
+      Script: {instanceID: 3176}
     - Class: 114
-      Script: {instanceID: 3538}
+      Script: {instanceID: 3526}
     - Class: 114
-      Script: {instanceID: 6554}
+      Script: {instanceID: 6534}
     - Class: 114
-      Script: {instanceID: 6940}
+      Script: {instanceID: 6926}
     - Class: 114
-      Script: {instanceID: 7586}
+      Script: {instanceID: 7568}
     - Class: 114
-      Script: {instanceID: 9842}
+      Script: {instanceID: 9838}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -156,41 +151,41 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1520}
+      Script: {instanceID: 1518}
     - Class: 114
       Script: {instanceID: 1652}
     - Class: 114
-      Script: {instanceID: 1940}
+      Script: {instanceID: 1938}
     - Class: 114
-      Script: {instanceID: 1948}
+      Script: {instanceID: 1946}
     - Class: 114
-      Script: {instanceID: 2494}
+      Script: {instanceID: 2484}
     - Class: 114
-      Script: {instanceID: 2924}
+      Script: {instanceID: 2912}
     - Class: 114
-      Script: {instanceID: 3188}
+      Script: {instanceID: 3176}
     - Class: 114
-      Script: {instanceID: 3538}
+      Script: {instanceID: 3526}
     - Class: 114
-      Script: {instanceID: 4758}
+      Script: {instanceID: 4742}
     - Class: 114
-      Script: {instanceID: 6034}
+      Script: {instanceID: 6026}
     - Class: 114
-      Script: {instanceID: 6130}
+      Script: {instanceID: 6116}
     - Class: 114
-      Script: {instanceID: 6278}
+      Script: {instanceID: 6262}
     - Class: 114
-      Script: {instanceID: 6554}
+      Script: {instanceID: 6534}
     - Class: 114
-      Script: {instanceID: 6940}
+      Script: {instanceID: 6926}
     - Class: 114
-      Script: {instanceID: 7284}
+      Script: {instanceID: 7272}
     - Class: 114
-      Script: {instanceID: 7586}
+      Script: {instanceID: 7568}
     - Class: 114
-      Script: {instanceID: 8334}
+      Script: {instanceID: 8336}
     - Class: 114
-      Script: {instanceID: 9842}
+      Script: {instanceID: 9838}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -229,31 +224,31 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1520}
+      Script: {instanceID: 1518}
     - Class: 114
-      Script: {instanceID: 2338}
+      Script: {instanceID: 2332}
     - Class: 114
-      Script: {instanceID: 2924}
+      Script: {instanceID: 2912}
     - Class: 114
-      Script: {instanceID: 3188}
+      Script: {instanceID: 3176}
     - Class: 114
-      Script: {instanceID: 3538}
+      Script: {instanceID: 3526}
     - Class: 114
-      Script: {instanceID: 4776}
+      Script: {instanceID: 4760}
     - Class: 114
-      Script: {instanceID: 4918}
+      Script: {instanceID: 4904}
     - Class: 114
-      Script: {instanceID: 5264}
+      Script: {instanceID: 5252}
     - Class: 114
-      Script: {instanceID: 6206}
+      Script: {instanceID: 6190}
     - Class: 114
-      Script: {instanceID: 6554}
+      Script: {instanceID: 6534}
     - Class: 114
-      Script: {instanceID: 6940}
+      Script: {instanceID: 6926}
     - Class: 114
-      Script: {instanceID: 7586}
+      Script: {instanceID: 7568}
     - Class: 114
-      Script: {instanceID: 9842}
+      Script: {instanceID: 9838}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -300,29 +295,29 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1520}
+      Script: {instanceID: 1518}
     - Class: 114
       Script: {instanceID: 1636}
     - Class: 114
-      Script: {instanceID: 1948}
+      Script: {instanceID: 1946}
     - Class: 114
-      Script: {instanceID: 2924}
+      Script: {instanceID: 2912}
     - Class: 114
-      Script: {instanceID: 3188}
+      Script: {instanceID: 3176}
     - Class: 114
-      Script: {instanceID: 3538}
+      Script: {instanceID: 3526}
     - Class: 114
-      Script: {instanceID: 4758}
+      Script: {instanceID: 4742}
     - Class: 114
-      Script: {instanceID: 6554}
+      Script: {instanceID: 6534}
     - Class: 114
-      Script: {instanceID: 6940}
+      Script: {instanceID: 6926}
     - Class: 114
-      Script: {instanceID: 7284}
+      Script: {instanceID: 7272}
     - Class: 114
-      Script: {instanceID: 7586}
+      Script: {instanceID: 7568}
     - Class: 114
-      Script: {instanceID: 9842}
+      Script: {instanceID: 9838}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -500,7 +495,7 @@ ScriptsOnlyBuild:
     className: AdvancedDropdownWindow
   - hash:
       serializedVersion: 2
-      Hash: f1d735cc1a21c3704ab52568f4fbfcf8
+      Hash: 4de78781075c75589cdbaad292fb6cff
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
     className: PlaymodeTestsController
@@ -1238,6 +1233,12 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteSkinUpdateHelper
+  - hash:
+      serializedVersion: 2
       Hash: a9f5af21a1f9e60e4efc49cb1f06273b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1776,4 +1777,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/GamePlayScene.unity
   - Assets/Scenes/PrincessScene.unity
   - Assets/Scenes/Credits Scene.unity
-  playerPath: /Users/kaleahwalker/GITREPOS/CrownClickerFinal/MyCrownClickerFinal/FinalBuild1.apk
+  playerPath: /Users/kaleahwalker/Desktop/SOPHMORE/GAME DEV/AndroidBuild9
